@@ -28,7 +28,7 @@ wp_enqueue_style('front-page', get_stylesheet_directory_uri() . '/tailwindy/outp
 get_header();
 ?>
 
-<div class="mb-16">
+	<div class="mb-16">
 		<div class="bg-gray-100">
 			<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 				<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -53,45 +53,57 @@ get_header();
 			<div
 				class="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
 				<div class="inline-block p-8 text-center">
-					<div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-						<svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-							<polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-								points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-						</svg>
+					<div class="flex items-center justify-center w-24 h-24 mx-auto mb-3 rounded-full bg-indigo-50">
+						<div class="avatar">
+							<div class="w-24 rounded-full">
+								<img src="<?=get_stylesheet_directory_uri() ?>/tailwindy/Dr-Lattanzi.jpg" />
+							</div>
+						</div>
 					</div>
-					<p class="font-bold tracking-wide text-gray-800">Make it better</p>
+					<p class="font-serif tracking-wider text-lg">
+						<a href="https://volgenau.gmu.edu/profiles/dlattanz">David Lattanzi</a>
+					</p>
+					<p class="text-xs"><abbr title="Co-Principal Investigator">Co-PI</abbr></p>
 				</div>
 				<div class="inline-block p-8 text-center">
-					<div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-						<svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-							<polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-								points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-						</svg>
+					<div class="flex items-center justify-center w-24 h-24 mx-auto mb-3 rounded-full bg-indigo-50">
+						<div class="avatar">
+							<div class="w-24 rounded-full">
+								<img src="<?=get_stylesheet_directory_uri() ?>/tailwindy/Dr-Scafide.jpg" />
+							</div>
+						</div>
 					</div>
-					<p class="font-bold tracking-wide text-gray-800">Do it faster</p>
+					<p class="font-serif tracking-wider text-lg">
+						<a href="https://publichealth.gmu.edu/profiles/kscafide">Katherine Scafide</a>
+					</p>
+					<p class="text-xs"><abbr title="Principal Investigator">PI</abbr></p>
 				</div>
 				<div class="inline-block p-8 text-center">
-					<div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-						<svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-							<polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-								points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-						</svg>
+					<div class="flex items-center justify-center w-24 h-24 mx-auto mb-3 rounded-full bg-indigo-50">
+						<div class="avatar">
+							<div class="w-24 rounded-full">
+								<img src="<?=get_stylesheet_directory_uri() ?>/tailwindy/Dr-Wojtusiak.jpg" />
+							</div>
+						</div>
 					</div>
-					<p class="font-bold tracking-wide text-gray-800">Working harder</p>
+					<p class="font-serif tracking-wider text-lg">
+						<a href="https://publichealth.gmu.edu/profiles/jwojtusi">Janusz Wojtusiak</a>
+					</p>
+					<p class="text-xs"><abbr title="Co-Principal Investigator">Co-PI</abbr></p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<footer class="footer footer-center p-10 bg-primary text-primary-content">
 		<nav class="grid grid-flow-col gap-4">
+			<a class="link link-hover">Participate</a>
+			<a class="link link-hover">Team</a>
 			<a class="link link-hover">About us</a>
-			<a class="link link-hover">Contact</a>
-			<a class="link link-hover">Jobs</a>
-			<a class="link link-hover">Press kit</a>
 		</nav>
 		<aside>
 			<img src="<?=get_stylesheet_directory_uri() ?>/tailwindy/mason-logo.png" alt="George Mason University Logo">
-			<p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+			<p>4400 University Drive, Fairfax, Virginia 22030</p>
+			<p>© 2024</p>
 		</aside>
 	</footer>
 

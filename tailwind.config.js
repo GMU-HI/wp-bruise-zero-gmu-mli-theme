@@ -5,6 +5,10 @@ module.exports = {
     "./front-page.php"
   ],
   theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+    },
     extend: {},
   },
   plugins: [
