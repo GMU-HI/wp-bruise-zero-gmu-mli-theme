@@ -95,7 +95,9 @@ get_header();
 		</aside>
 	</footer>
 
-	<?php print_r( crunchify_print_scripts_styles() ); ?>
+	<?php 
+		// print_r( crunchify_print_scripts_styles() );
+	?>
 
 <?php
 get_footer();
