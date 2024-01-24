@@ -39,7 +39,7 @@ get_header();
 						</p>
 					</div>
 					<h1
-						class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+						class="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
 						<img src="<?=get_stylesheet_directory_uri() ?>/tailwindy/bruise-typed.png" alt="GMU Bruise website">
 					</h1>
 					<p class="text-base text-gray-700 md:text-lg">
