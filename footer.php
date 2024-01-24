@@ -4,6 +4,7 @@
  */
 
 ?>
+			<?php if(!is_front_page()) { ?>
 			<!-- Child theme customization: homepage bottom widget area -->
 			<?php if (is_front_page()) { get_template_part('template-parts/widget-area','homepage-bottom'); } ?>
 			<!-- /Child theme customization: homepage bottom widget area -->
@@ -138,7 +139,7 @@
 				</div><!-- .section-inner -->
 
 			</footer><!-- #site-footer -->
-
+		<?php } ?>
 		<?php wp_footer(); ?>
 
 	</body>

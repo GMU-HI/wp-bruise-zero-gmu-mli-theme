@@ -62,9 +62,30 @@ require(get_stylesheet_directory() . '/php/custom-editor-styles.php');
 require(get_stylesheet_directory() . '/php/custom-twitter.php');
 
 // Set up auto-updates
-  require 'plugin-update-checker/plugin-update-checker.php';
-  $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
   'https://github.com/jmacario-gmu/gmuj-wordpress-theme-mason-twentytwenty-child/',
   __FILE__,
   'gmuj-wordpress-theme-mason-twentytwenty-child'
-  );
+);
+
+function crunchify_print_scripts_styles() {
+
+  $result = [];
+  $result['scripts'] = [];
+  $result['styles'] = [];
+
+  // Print all loaded Scripts
+  global $wp_scripts;
+  foreach( $wp_scripts->queue as $script ) :
+     $result['scripts'][] =  $wp_scripts->registered[$script]->src . ";";
+  endforeach;
+
+  // Print all loaded Styles (CSS)
+  global $wp_styles;
+  foreach( $wp_styles->queue as $style ) :
+     $result['styles'][] =  $wp_styles->registered[$style]->src . ";";
+  endforeach;
+
+  return $result;
+}

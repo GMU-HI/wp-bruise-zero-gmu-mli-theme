@@ -14,10 +14,10 @@ Template: twentytwenty
 /* FontAwesome (This is currently only used for the university-breadcrumb-bar icons.) */
 	@import 'css/fontawesome-all.min.css';
 
-/* General style modifications to parent theme */
+	/* General style modifications to parent theme */
 	@import 'css/parent-theme-modifications.css';
 
-/* University links bar */
+	/* University links bar */
 	@import 'css/university-links-bar.css';
 
 /* University breadcrumbs bar */

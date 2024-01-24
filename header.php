@@ -25,6 +25,7 @@
 		wp_body_open();
 		?>
 
+		<?php if (!is_front_page()) { ?>
 		<!-- Child theme customization: Sitewide alert ribbon -->
 		<?php dynamic_sidebar('sidebar-sitewide-alert'); ?>
 		<!-- /Child theme customization: Sitewide alert ribbon -->
@@ -214,3 +215,4 @@
 		<!-- Child theme customization: homepage top widget area -->
 		<?php if (is_front_page()) { get_template_part('template-parts/widget-area','homepage-top'); } ?>
 		<!-- /Child theme customization: homepage top widget area -->
+		<?php } ?>
