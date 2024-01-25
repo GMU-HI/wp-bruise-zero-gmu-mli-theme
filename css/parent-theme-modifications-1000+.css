@@ -15,9 +15,9 @@ header#site-header:before {
 }
 
 /* Style site header */
-.header-inner {
+/* .header-inner {
 	margin-left:0;
-}
+} */
 
 /* Fix header icons for larger screens */
 .header-inner .toggle {

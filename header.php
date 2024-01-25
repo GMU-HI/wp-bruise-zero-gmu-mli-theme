@@ -70,7 +70,7 @@
 
 						<?php
 							// Site title or logo.
-							twentytwenty_site_logo();
+							// twentytwenty_site_logo();
 
 							// Child theme customization: site name
 							echo '<div class="site-name"><a href="'.get_home_url().'">'.get_bloginfo('name').'</a></div>';
