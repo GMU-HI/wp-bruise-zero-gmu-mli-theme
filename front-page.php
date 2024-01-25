@@ -63,7 +63,11 @@ get_header();
 					<p class="font-serif tracking-wider text-lg">
 						<a href="https://volgenau.gmu.edu/profiles/dlattanz">David Lattanzi</a>
 					</p>
-					<p class="text-xs"><abbr title="Co-Principal Investigator">Co-PI</abbr></p>
+					<p class="text-xs">
+						<!--abbr title="Co-Principal Investigator">Co-PI</abbr-->
+						Dept. of Civil, Env., & Infrastructure<br>
+						College of Engineering
+					</p>
 				</div>
 				<div class="inline-block p-8 text-center">
 					<div class="flex items-center justify-center w-24 h-24 mx-auto mb-3 rounded-full bg-indigo-50">
@@ -76,7 +80,10 @@ get_header();
 					<p class="font-serif tracking-wider text-lg">
 						<a href="https://publichealth.gmu.edu/profiles/kscafide">Katherine Scafide</a>
 					</p>
-					<p class="text-xs"><abbr title="Principal Investigator">PI</abbr></p>
+					<p class="text-xs">
+						<!--abbr title="Principal Investigator">PI</abbr><br-->
+						School of Nursing<br>College of Public Health
+					</p>
 				</div>
 				<div class="inline-block p-8 text-center">
 					<div class="flex items-center justify-center w-24 h-24 mx-auto mb-3 rounded-full bg-indigo-50">
@@ -89,7 +96,12 @@ get_header();
 					<p class="font-serif tracking-wider text-lg">
 						<a href="https://publichealth.gmu.edu/profiles/jwojtusi">Janusz Wojtusiak</a>
 					</p>
-					<p class="text-xs"><abbr title="Co-Principal Investigator">Co-PI</abbr></p>
+					<p class="text-xs">
+						<!--abbr title="Co-Principal Investigator">Co-PI</abbr-->
+						<abbr title="The Center for Discovery Science and Health Informatics (DSHI)">DSHI</abbr> & 
+						<abbr title="The Machine Learning and Inference Laboratory">MLi Lab</abbr>
+						<br>College of Public Health
+					</p>
 				</div>
 			</div>
 		</div>
